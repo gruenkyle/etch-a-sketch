@@ -1,9 +1,10 @@
 <!--
-    This is my rendition of the rock paper scissors assignments 
-    within the Odin Project made from CSS Javascript and HTML
+    This is my rendition of the Etch-a-Sketch Project 
+    Currently this is the most updated version of 
+    the html containers used on the webpage
 
     Author: Kyle Gruen
-    Date: 10-26-2022
+    Date: 11-17-2022
 -->
 
 <!DOCTYPE html>
@@ -31,6 +32,12 @@
 
         <div class="button-container">
 
+            <button class="black" onclick="black()">Black</button>
+            <button class="rainbow" onclick="rainbow()">Rainbow</button>
+            <button class="reset">Reset</button>
+
+        </div>
+        <div class="form-container">
             <form action="#">
                 <select id="sizes" onchange="setGameSize()">sizes
                     <option value="4">4x4</option>
@@ -38,11 +45,6 @@
                     <option value="16">16x16</option>
                 </select>
             </form>
-
-            <button class="black" onclick="black()">Black</button>
-            <button class="rainbow" onclick="rainbow()">Rainbow</button>
-            <button class="reset">Reset</button>
-
         </div>
     </div>
     <div class="center-container"></div>
